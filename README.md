@@ -103,7 +103,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 ### 📦 7. Uploading a ZIP Folder of CAPTCHAs  
 **File:** 
 ![ZIP Upload Interface](imgsScs/Screenshot%202025-10-20%20at%2001.14.51.png)
-![ZIP Upload Interface2](imgsScs/Screenshot%202025-10-20%20at%2001.15.06.png)
+
 
 > The upload panel supports folder uploads in `.zip` format, allowing batch predictions.  
 > The app automatically extracts the archive and processes all CAPTCHA images within it.
