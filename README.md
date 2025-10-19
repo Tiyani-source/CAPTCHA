@@ -22,8 +22,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ### 🏠 1. Home & Upload Interface  
 **File:**  
-![App Upload Interface](imgsScs/Screenshot 2025-10-20 at 01.13.02.png)
-
+![App Upload Interface](imgsScs/Screenshot%202025-10-20%20at%2001.13.02.png)
 
 > The app opens with a clean, dark-themed interface titled **“CAPTCHA OCR — Visual CAPTCHA Solver.”**  
 > Users can:
