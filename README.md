@@ -34,30 +34,10 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 > Each upload is processed for prediction via the **▶️ Run Predictions** button.
 
 ---
-## 🧩 Application Walkthrough — CAPTCHA OCR Solver
-
-The following screenshots demonstrate how the app functions locally from start to finish — from uploading CAPTCHA images to viewing predictions, statistics, and visual diagnostics.
-
----
-
-### 🏠 1. Home & Upload Interface  
-**File:** `imgsScs/Screenshot_2025-10-20_01.13.02.png`  
-![App Upload Interface](imgsScs/Screenshot%2025-10-20%01.13.02.png)
-
-> The app opens with a clean, dark-themed interface titled **“CAPTCHA OCR — Visual CAPTCHA Solver.”**  
-> Users can:
-> - Upload individual or multiple CAPTCHA images (`.png`, `.jpg`, `.jpeg`, `.bmp`, `.webp`)  
-> - Upload an entire folder compressed as a `.zip`  
-> - Load sample CAPTCHA images using the **🎁 Load Sample Set** button  
-> - Clear uploaded samples or reset the entire session.  
-> 
-> Each upload is processed for prediction via the **▶️ Run Predictions** button.
-
----
 
 ### 📂 2. Selecting Files from Local Directory  
-**File:** `imgsScs/Screenshot_2025-10-20_01.13.23.png`  
-![File Selection Screen](imgsScs/Screenshot_2025-10-20%01.13.23.png)
+**File:**  
+![File Selection Screen](imgsScs/Screenshot%202025-10-20%2001.13.23.png)
 
 > When clicking **Browse Files**, the local file picker opens, allowing the user to select CAPTCHA images from their dataset folder.  
 > In this example, a file named `2g783.png` is selected from the project’s `captcha_images_v2` directory.
@@ -65,8 +45,8 @@ The following screenshots demonstrate how the app functions locally from start t
 ---
 
 ### ✏️ 3. Entering CAPTCHA Labels  
-**File:** `imgsScs/Screenshot_2025-10-20_01.13.41.png`  
-![Label Input Screen](imgsScs/Screenshot_2025-10-20%01.13.41.png)
+**File:** 
+![Label Input Screen](imgsScs/Screenshot%202025-10-20%2001.13.41.png)
 
 > After uploading, the app automatically previews the image and provides an input box to manually type the correct CAPTCHA label.  
 > You can either:
