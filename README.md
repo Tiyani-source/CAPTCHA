@@ -12,9 +12,15 @@
 **CaptchSolver** is a deep learning–based OCR system that automatically decodes text from complex CAPTCHA images using a **CNN + Bi-LSTM + CTC** architecture.  
 The project integrates preprocessing, training, evaluation, and deployment — culminating in a **Streamlit dashboard** for real-time predictions and visualization of OCR performance metrics.
 
-## 🌐 Live Demo  
+## 🌐 Live Video Demo  
 
 > Upload any CAPTCHA image to see decoded predictions, model confidence, and per-character analysis — all rendered on a modern Streamlit dashboard.
+[![Watch Demo](https://img.youtube.com/vi/XXXXXXXXXXX/0.jpg)](https://www.youtube.com/watch?v=XXXXXXXXXXX)
+
+> 🎥 Click the thumbnail to watch a quick walkthrough of the CAPTCHA Solver web app, showing upload, prediction, and evaluation.
+
+[![GitHub Repo](https://img.shields.io/badge/💻_View_on-GitHub-black?style=flat-square&logo=github)](https://github.com/Tiyani-source/CAPTCHA)
+
 
 ## ⚙️ Technical Stack  
 
@@ -47,17 +53,20 @@ streamlit run app.py
 
 ## 📦 Repository Structure  
 ```bash
-CaptchSolver/
+CAPTCHA/
 │
-├── Datasets/                # Image datasets (raw & validation)
-├── Models/                  # Trained model weights (.h5)
-├── captcha_images_v2/       # Labeled CAPTCHA samples
-├── imgs/                    # Visualization & EDA figures
-├── script/                  # Installation helpers
-├── captchasolver.ipynb      # Full training + evaluation notebook
-├── app.py                   # Streamlit web app
-├── requirements.txt         # Dependencies
-└── README.md
+├── captcha_images_v2/         # Dataset folder
+├── imgs/                      # Sample CAPTCHA images
+├── imgsScs/                   # Captured screenshots and results
+├── app.py                     # Main Streamlit app
+├── captchsolver.ipynb         # Model training & evaluation notebook
+├── configs.yaml               # Model and preprocessing config
+├── model.h5                   # Trained CNN+BiLSTM+CTC model
+├── requirements.txt           # Dependencies for app deployment
+├── LICENSE                    # License file
+├── README.md                  # Documentation
+├── logs.log                   # Optional app run logs
+└── script/                    # Utility or shell scripts
 ```
 
 ## 🧮 Dataset Overview  
