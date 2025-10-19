@@ -29,6 +29,21 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 | **Visualization** | Matplotlib / Seaborn |
 | **Deployment** | Streamlit Cloud / Local |
 
+## 🧰 Local Deployment  
+
+### 1️⃣ Clone & Setup  
+```bash
+git clone https://github.com/<your-username>/CaptchSolver.git  
+cd CaptchSolver  
+python3 -m venv venv  
+source venv/bin/activate  
+pip install -r requirements.txt
+```
+
+2️⃣ Run App
+
+streamlit run app.py
+
 
 ## 📦 Repository Structure  
 ```bash
@@ -187,22 +202,6 @@ WER = (Substitutions + Insertions + Deletions)/(Length(GroundTruth)
 | **CER / WER** | 0.013 / 0.015 | Minimal textual distortion |
 | **Top Confusions** | n↔m, c↔e, g↔p | Shape similarity errors |
 | **Deployment** | Streamlit App | Real-time visual OCR demo |
-
-
-## 🧰 Local Deployment  
-
-### 1️⃣ Clone & Setup  
-```bash
-git clone https://github.com/<your-username>/CaptchSolver.git  
-cd CaptchSolver  
-python3 -m venv venv  
-source venv/bin/activate  
-pip install -r requirements.txt
-```
-
-2️⃣ Run App
-
-streamlit run app.py
 
 
 
