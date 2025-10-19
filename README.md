@@ -118,7 +118,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ### ⚙️ 9. ZIP Extraction and Batch Prediction  
 **File:** 
-![ZIP Extraction Success](imgsScs/Screenshot%202025-10-20%2001.15.06.png)
+![ZIP Extraction Success](imgsScs/Screenshot%202025-10-20%20at%2001.15.14.png)
 
 > Once uploaded, a message confirms:  
 > *“Folder uploaded and extracted to a temporary directory.”*  
