@@ -37,7 +37,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ### 📂 2. Selecting Files from Local Directory  
 **File:**  
-![File Selection Screen](imgsScs/Screenshot%202025-10-20%2001.13.23.png)
+![File Upload Dialog](imgsScs/Screenshot%202025-10-20%20at%2001.13.23.png)
 
 > When clicking **Browse Files**, the local file picker opens, allowing the user to select CAPTCHA images from their dataset folder.  
 > In this example, a file named `2g783.png` is selected from the project’s `captcha_images_v2` directory.
@@ -46,7 +46,11 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ### ✏️ 3. Entering CAPTCHA Labels  
 **File:** 
-![Label Input Screen](imgsScs/Screenshot%202025-10-20%2001.13.41.png)
+![Manual Label Entry](imgsScs/Screenshot%202025-10-20%20at%2001.13.41.png)
+![Prediction Ready](imgsScs/Screenshot%202025-10-20%20at%2001.13.55.png)
+![Model Evaluation Dashboard](imgsScs/Screenshot%202025-10-20%20at%2001.14.04.png)
+![Model Evaluation Dashboard](imgsScs/Screenshot%202025-10-20%20at%2001.14.04.png)
+![Correct Prediction Example](imgsScs/Screenshot%202025-10-20%20at%2001.14.13.png)
 
 > After uploading, the app automatically previews the image and provides an input box to manually type the correct CAPTCHA label.  
 > You can either:
@@ -108,8 +112,9 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 ---
 
 ### 📦 8. Uploading a ZIP Folder of CAPTCHAs  
-**File:** `imgsScs/Screenshot_2025-10-20_01.14.51.png`  
-![ZIP Upload Interface](imgsScs/Screenshot%2025-10-20%01.14.51.png)
+**File:** 
+![ZIP Upload Interface](imgsScs/Screenshot%202025-10-20%20at%2001.14.51.png)
+![ZIP Upload Interface2](imgsScs/Screenshot%202025-10-20%20at%2001.15.06.png)
 
 > The upload panel supports folder uploads in `.zip` format, allowing batch predictions.  
 > The app automatically extracts the archive and processes all CAPTCHA images within it.
@@ -129,7 +134,11 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ### 📈 10. Performance Dashboard (Batch Run Example)  
 **File:** 
-![Performance Dashboard](imgsScs/Screenshot%202025-10-20%2001.15.14.png)
+![Performance Dashboard](imgsScs/Screenshot%202025-10-20%20at%2001.15.14.png)
+![Confusion Heatmap](imgsScs/Screenshot%202025-10-20%20at%2001.16.53.png)
+![Correct Predictions Overview](imgsScs/Screenshot%202025-10-20%20at%2001.17.16.png)
+![Metrics and Notes](imgsScs/Screenshot%202025-10-20%20at%2001.17.39.png)
+![Evaluation Summary](imgsScs/Screenshot%202025-10-20%20at%2001.17.43.png)
 
 > The dashboard updates dynamically after batch processing:  
 > - Displays the total number of CAPTCHA samples tested.  
