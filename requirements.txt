@@ -1,0 +1,19 @@
+# Streamlit
+streamlit>=1.35
+streamlit-drawable-canvas>=0.9.3
+
+# Numeric stack (stable pins)
+numpy==1.26.4
+pandas==2.2.2
+pillow==10.3.0
+plotly==5.22.0
+pyyaml
+
+# Vision (headless only)
+opencv-python-headless==4.12.0.88
+
+# TensorFlow (CPU-only) + Keras v2 for maximal compatibility
+tensorflow-cpu==2.15.1
+keras==2.15.0
+h5py==3.10.0
+protobuf==3.20.*

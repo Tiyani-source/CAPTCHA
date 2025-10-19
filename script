@@ -1,0 +1,8 @@
+conda create -n tf-mps python=3.10 -y
+conda init
+conda activate tf-mps
+pip install "numpy==1.26.4"
+pip install "tensorflow-macos==2.15.*"
+
+
+pip install onnxruntime-silicon
