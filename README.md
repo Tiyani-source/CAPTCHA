@@ -8,18 +8,16 @@
 
 
 ## 🧭 Overview  
-
+[![GitHub Repo](https://img.shields.io/badge/💻_View_on-GitHub-black?style=flat-square&logo=github)](https://github.com/Tiyani-source/CAPTCHA)
 **CaptchSolver** is a deep learning–based OCR system that automatically decodes text from complex CAPTCHA images using a **CNN + Bi-LSTM + CTC** architecture.  
 The project integrates preprocessing, training, evaluation, and deployment — culminating in a **Streamlit dashboard** for real-time predictions and visualization of OCR performance metrics.
 
-## 🌐 Live Video Demo  
+## 🌐 Demo App Screenshots
 
 > Upload any CAPTCHA image to see decoded predictions, model confidence, and per-character analysis — all rendered on a modern Streamlit dashboard.
-[![Watch Demo](https://img.youtube.com/vi/XXXXXXXXXXX/0.jpg)](https://www.youtube.com/watch?v=XXXXXXXXXXX)
 
-> 🎥 Click the thumbnail to watch a quick walkthrough of the CAPTCHA Solver web app, showing upload, prediction, and evaluation.
 
-[![GitHub Repo](https://img.shields.io/badge/💻_View_on-GitHub-black?style=flat-square&logo=github)](https://github.com/Tiyani-source/CAPTCHA)
+
 
 
 ## ⚙️ Technical Stack  
