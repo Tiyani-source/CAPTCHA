@@ -117,8 +117,8 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 ---
 
 ### ⚙️ 9. ZIP Extraction and Batch Prediction  
-**File:** `imgsScs/Screenshot_2025-10-20_01.15.06.png`  
-![ZIP Extraction Success](imgsScs/Screenshot%2025-10-20%01.15.06.png)
+**File:** 
+![ZIP Extraction Success](imgsScs/Screenshot%202025-10-20%2001.15.06.png)
 
 > Once uploaded, a message confirms:  
 > *“Folder uploaded and extracted to a temporary directory.”*  
@@ -128,8 +128,8 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 ---
 
 ### 📈 10. Performance Dashboard (Batch Run Example)  
-**File:** `imgsScs/Screenshot_2025-10-20_01.15.14.png`  
-![Performance Dashboard](imgsScs/Screenshot%2025-10-20%01.15.14.png)
+**File:** 
+![Performance Dashboard](imgsScs/Screenshot%202025-10-20%2001.15.14.png)
 
 > The dashboard updates dynamically after batch processing:  
 > - Displays the total number of CAPTCHA samples tested.  
