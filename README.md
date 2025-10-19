@@ -18,7 +18,22 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 > Upload any CAPTCHA image to see decoded predictions, model confidence, and per-character analysis — all rendered on a modern Streamlit dashboard.
 
+---
 
+### 🏠 1. Home & Upload Interface  
+**File:** `imgsScs/Screenshot_2025-10-20_01.13.02.png`  
+![App Upload Interface](imgsScs/Screenshot_2025-10-20_01.13.02.png)
+
+> The app opens with a clean, dark-themed interface titled **“CAPTCHA OCR — Visual CAPTCHA Solver.”**  
+> Users can:
+> - Upload individual or multiple CAPTCHA images (`.png`, `.jpg`, `.jpeg`, `.bmp`, `.webp`)  
+> - Upload an entire folder compressed as a `.zip`  
+> - Load sample CAPTCHA images using the **🎁 Load Sample Set** button  
+> - Clear uploaded samples or reset the entire session.  
+> 
+> Each upload is processed for prediction via the **▶️ Run Predictions** button.
+
+---
 
 ## ⚙️ Technical Stack  
 
@@ -217,3 +232,7 @@ WER = (Substitutions + Insertions + Deletions)/(Length(GroundTruth)
 
 
 📘 CaptchSolver demonstrates an end-to-end OCR workflow — from CAPTCHA preprocessing and EDA to model training and Streamlit deployment — achieving human-level recognition accuracy  with interpretability metrics (CER, WER, confusion heatmaps).
+
+# 📜 License
+
+MIT License © 2025 Tiyani Gurusinghe
