@@ -18,6 +18,18 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 > Upload any CAPTCHA image to see decoded predictions, model confidence, and per-character analysis — all rendered on a modern Streamlit dashboard.
 
+| Stage | Preview |
+|-------|----------|
+| 🏠 **Upload Interface** | ![Upload screen](imgs/Screenshot_2025-10-20_01.13.02.png) |
+| 📂 **File Selection (Single Image)** | ![File selection](imgs/Screenshot_2025-10-20_01.13.23.png) |
+| ✏️ **Label Input** | ![Label input](imgs/Screenshot_2025-10-20_01.13.41.png) |
+| ▶️ **Run Predictions** | ![Run predictions](imgs/Screenshot_2025-10-20_01.13.55.png) |
+| 📊 **Dashboard Overview** | ![Dashboard overview](imgs/Screenshot_2025-10-20_01.14.04.png) |
+| ✅ **Correct Predictions View** | ![Examples tab](imgs/Screenshot_2025-10-20_01.14.13.png) |
+| 🧠 **Load Sample Set** | ![Load samples](imgs/Screenshot_2025-10-20_01.14.35.png) |
+| 📦 **ZIP Upload Support** | ![Upload ZIP](imgs/Screenshot_2025-10-20_01.14.51.png) |
+| 📈 **Results Table and Stats** | ![Results table](imgs/Screenshot_2025-10-20_01.15.06.png) |
+| 🎯 **Accuracy 100% View** | ![Accuracy dashboard](imgs/Screenshot_2025-10-20_01.15.14.png) |
 
 
 
