@@ -47,10 +47,6 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 ### ✏️ 3. Entering CAPTCHA Labels  
 **File:** 
 ![Manual Label Entry](imgsScs/Screenshot%202025-10-20%20at%2001.13.41.png)
-![Prediction Ready](imgsScs/Screenshot%202025-10-20%20at%2001.13.55.png)
-![Model Evaluation Dashboard](imgsScs/Screenshot%202025-10-20%20at%2001.14.04.png)
-![Model Evaluation Dashboard](imgsScs/Screenshot%202025-10-20%20at%2001.14.04.png)
-![Correct Prediction Example](imgsScs/Screenshot%202025-10-20%20at%2001.14.13.png)
 
 > After uploading, the app automatically previews the image and provides an input box to manually type the correct CAPTCHA label.  
 > You can either:
@@ -62,8 +58,9 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 ---
 
 ### ▶️ 4. Running Predictions  
-**File:** `imgsScs/Screenshot_2025-10-20_01.13.55.png`  
-![Run Predictions Screen](imgsScs/Screenshot%2025-10-20%01.13.55.png)
+**File:** 
+![Prediction Ready](imgsScs/Screenshot%202025-10-20%20at%2001.13.55.png)
+
 
 > Once the correct label is entered, users can click **Run Predictions**.  
 > The app runs inference using the trained **CNN + BiLSTM + CTC** model and outputs both the predicted text and comparison metrics.
@@ -71,8 +68,10 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 ---
 
 ### 📊 5. Dashboard Overview (Results Summary)  
-**File:** `imgsScs/Screenshot_2025-10-20_01.14.04.png`  
-![Dashboard Overview](imgsScs/Screenshot%2025-10-20%01.14.04.png)
+**File:**  
+![Model Evaluation Dashboard](imgsScs/Screenshot%202025-10-20%20at%2001.14.04.png)
+![Model Evaluation Dashboard](imgsScs/Screenshot%202025-10-20%20at%2001.14.04.png)
+
 
 > After prediction, the user is redirected to the **Dashboard** tab.  
 > This page shows key metrics:
@@ -90,8 +89,8 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 ---
 
 ### ✅ 6. Correct Predictions & Examples View  
-**File:** `imgsScs/Screenshot_2025-10-20_01.14.13.png`  
-![Examples View](imgsScs/Screenshot%2025-10-20%01.14.13.png)
+**File:** 
+![Correct Prediction Example](imgsScs/Screenshot%202025-10-20%20at%2001.14.13.png)
 
 > The **Examples** tab categorizes predictions into:
 > - ✅ **Correct Predictions** — Ground truth and predicted text match perfectly.  
@@ -101,17 +100,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ---
 
-### 🧩 7. Loading Sample CAPTCHAs  
-**File:** `imgsScs/Screenshot_2025-10-20_01.14.35.png`  
-![Sample Set Loaded](imgsScs/Screenshot%2025-10-20%01.14.35.png)
-
-> The app includes a **Load Sample Set** button that loads a pre-packaged set of CAPTCHA images from the `imgs/` folder for demo testing.  
-> Each sample appears with its filename (serving as ground truth).  
-> Users can instantly test model performance without external uploads.
-
----
-
-### 📦 8. Uploading a ZIP Folder of CAPTCHAs  
+### 📦 7. Uploading a ZIP Folder of CAPTCHAs  
 **File:** 
 ![ZIP Upload Interface](imgsScs/Screenshot%202025-10-20%20at%2001.14.51.png)
 ![ZIP Upload Interface2](imgsScs/Screenshot%202025-10-20%20at%2001.15.06.png)
@@ -121,7 +110,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ---
 
-### ⚙️ 9. ZIP Extraction and Batch Prediction  
+### ⚙️ 8. ZIP Extraction and Batch Prediction  
 **File:** 
 ![ZIP Extraction Success](imgsScs/Screenshot%202025-10-20%20at%2001.15.14.png)
 
@@ -132,11 +121,20 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ---
 
+### 🧩 9. Loading Sample CAPTCHAs  
+**File:** 
+![Sample Data Loader](imgsScs/Screenshot%202025-10-20%20at%2001.17.16.png)
+
+> The app includes a **Load Sample Set** button that loads a pre-packaged set of CAPTCHA images from the `imgs/` folder for demo testing.  
+> Each sample appears with its filename (serving as ground truth).  
+> Users can instantly test model performance without external uploads.
+
+---
+
 ### 📈 10. Performance Dashboard (Batch Run Example)  
 **File:** 
-![Performance Dashboard](imgsScs/Screenshot%202025-10-20%20at%2001.15.14.png)
-![Confusion Heatmap](imgsScs/Screenshot%202025-10-20%20at%2001.16.53.png)
-![Correct Predictions Overview](imgsScs/Screenshot%202025-10-20%20at%2001.17.16.png)
+![Performance Dashboard](imgsScs/Screenshot%202025-10-20%20at%2001.17.24.png)
+![Confusion Matrix Heatmap](imgsScs/Screenshot%202025-10-20%20at%2001.17.32.png)
 ![Metrics and Notes](imgsScs/Screenshot%202025-10-20%20at%2001.17.39.png)
 ![Evaluation Summary](imgsScs/Screenshot%202025-10-20%20at%2001.17.43.png)
 
