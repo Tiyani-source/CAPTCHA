@@ -31,7 +31,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 | 📈 **Results Table and Stats** | ![Results table](imgsScs/Screenshot_2025-10-20_01.15.06.png) |
 | 🎯 **Accuracy 100% View** | ![Accuracy dashboard](imgsScs/Screenshot_2025-10-20_01.15.14.png) |
 
-
+![Upload screen](imgsScs/Screenshot 2025-10-20 at 01.13.02.png)
 
 
 ## ⚙️ Technical Stack  
