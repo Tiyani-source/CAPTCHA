@@ -147,7 +147,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ---
 
-### 🧭 Summary of Features
+### Summary of Features
 
 -  **Image Upload & Previews** — Real-time display of uploaded CAPTCHAs.  
 -  **Label Entry System** — Manual or automatic labeling using filenames.  
@@ -355,7 +355,7 @@ WER = (Substitutions + Insertions + Deletions)/(Length(GroundTruth)
 
 
 
-# 🧑‍💻 Contributor
+# Contributor
 	•	Tiyani Gurusinghe — Developer
 
 
