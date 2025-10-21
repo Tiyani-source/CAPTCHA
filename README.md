@@ -8,19 +8,19 @@
 
 
 
-## 🧭 Overview  
+## Overview  
 
 **CaptchSolver** is a deep learning–based OCR system that automatically decodes text from complex CAPTCHA images using a **CNN + Bi-LSTM + CTC** architecture.  
 The project integrates preprocessing, training, evaluation, and deployment — culminating in a **Streamlit dashboard** for real-time predictions and visualization of OCR performance metrics.
 
-## 🌐 Demo App Screenshots
+## Demo App Screenshots
 [![GitHub Repo](https://img.shields.io/badge/💻_View_on-GitHub-black?style=flat-square&logo=github)](https://github.com/Tiyani-source/CAPTCHA)
 
 > Upload any CAPTCHA image to see decoded predictions, model confidence, and per-character analysis — all rendered on a modern Streamlit dashboard.
 
 ---
 
-### 🏠 1. Home & Upload Interface  
+### 1. Home & Upload Interface  
 **File:**  
 ![App Upload Interface](imgsScs/Screenshot%202025-10-20%20at%2001.13.02.png)
 
@@ -35,7 +35,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ---
 
-### 📂 2. Selecting Files from Local Directory  
+### 2. Selecting Files from Local Directory  
 **File:**  
 ![File Upload Dialog](imgsScs/Screenshot%202025-10-20%20at%2001.13.23.png)
 
@@ -44,7 +44,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ---
 
-### ✏️ 3. Entering CAPTCHA Labels  
+### 3. Entering CAPTCHA Labels  
 **File:** 
 ![Manual Label Entry](imgsScs/Screenshot%202025-10-20%20at%2001.13.41.png)
 
@@ -57,7 +57,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ---
 
-### ▶️ 4. Running Predictions  
+### 4. Running Predictions  
 **File:** 
 ![Prediction Ready](imgsScs/Screenshot%202025-10-20%20at%2001.13.55.png)
 
@@ -67,7 +67,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ---
 
-### 📊 5. Dashboard Overview (Results Summary)  
+### 5. Dashboard Overview (Results Summary)  
 **File:**  
 ![Model Evaluation Dashboard](imgsScs/Screenshot%202025-10-20%20at%2001.14.04.png)
 ![Model Evaluation Dashboard](imgsScs/Screenshot%202025-10-20%20at%2001.14.04.png)
@@ -88,7 +88,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ---
 
-### ✅ 6. Correct Predictions & Examples View  
+### 6. Correct Predictions & Examples View  
 **File:** 
 ![Correct Prediction Example](imgsScs/Screenshot%202025-10-20%20at%2001.14.13.png)
 
@@ -100,7 +100,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ---
 
-### 📦 7. Uploading a ZIP Folder of CAPTCHAs  
+### 7. Uploading a ZIP Folder of CAPTCHAs  
 **File:** 
 ![ZIP Upload Interface](imgsScs/Screenshot%202025-10-20%20at%2001.14.51.png)
 
@@ -121,7 +121,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ---
 
-### 🧩 9. Loading Sample CAPTCHAs  
+### 9. Loading Sample CAPTCHAs  
 **File:** 
 ![Sample Data Loader](imgsScs/Screenshot%202025-10-20%20at%2001.17.16.png)
 
@@ -131,7 +131,7 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ---
 
-### 📈 10. Performance Dashboard (Batch Run Example)  
+### 10. Performance Dashboard (Batch Run Example)  
 **File:** 
 ![Performance Dashboard](imgsScs/Screenshot%202025-10-20%20at%2001.17.24.png)
 ![Confusion Matrix Heatmap](imgsScs/Screenshot%202025-10-20%20at%2001.17.32.png)
@@ -149,21 +149,21 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 
 ### 🧭 Summary of Features
 
-- 🖼️ **Image Upload & Previews** — Real-time display of uploaded CAPTCHAs.  
-- 🏷️ **Label Entry System** — Manual or automatic labeling using filenames.  
-- 🧠 **Model Inference (CNN + BiLSTM + CTC)** — Predicts CAPTCHA text and computes metrics.  
-- 📊 **Interactive Dashboard** — Accuracy, CER, and visual results table.  
-- 📦 **ZIP Batch Upload Support** — Extracts and evaluates multiple CAPTCHAs.  
-- 🎯 **Clean, Dark UI** — Modern Streamlit layout optimized for clarity and accessibility.
+-  **Image Upload & Previews** — Real-time display of uploaded CAPTCHAs.  
+-  **Label Entry System** — Manual or automatic labeling using filenames.  
+-  **Model Inference (CNN + BiLSTM + CTC)** — Predicts CAPTCHA text and computes metrics.  
+-  **Interactive Dashboard** — Accuracy, CER, and visual results table.  
+-  **ZIP Batch Upload Support** — Extracts and evaluates multiple CAPTCHAs.  
+-  **Clean, Dark UI** — Modern Streamlit layout optimized for clarity and accessibility.
 
 ---
 
-> 📍 *All screenshots are captured from the local app running in developer mode.*  
+>  *All screenshots are captured from the local app running in developer mode.*  
 > This documentation section is designed to help readers explore the app features even without a deployed live demo.
 
 ---
 
-## ⚙️ Technical Stack  
+##  Technical Stack  
 
 | Category | Technologies |
 |-----------|---------------|
@@ -176,9 +176,9 @@ The project integrates preprocessing, training, evaluation, and deployment — c
 | **Visualization** | Matplotlib / Seaborn |
 | **Deployment** | Streamlit Cloud / Local |
 
-## 🧰 Local Deployment  
+##  Local Deployment  
 
-### 1️⃣ Clone & Setup  
+###  Clone & Setup  
 ```bash
 git clone https://github.com/<your-username>/CaptchSolver.git  
 cd CaptchSolver  
@@ -187,12 +187,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-2️⃣ Run App
+ Run App
 
 streamlit run app.py
 
 
-## 📦 Repository Structure  
+##  Repository Structure  
 ```bash
 CAPTCHA/
 │
@@ -210,7 +210,7 @@ CAPTCHA/
 └── script/                    # Utility or shell scripts
 ```
 
-## 🧮 Dataset Overview  
+##  Dataset Overview  
 
 **Source:** A curated dataset of synthetic CAPTCHA images labeled via filenames (e.g., `4fp5g.png → "4fp5g"`).  
 Images contain alphanumeric sequences over cluttered backgrounds with rotation and noise.
@@ -224,7 +224,7 @@ Images contain alphanumeric sequences over cluttered backgrounds with rotation a
 | Unique Characters | **19 letters + digits** |
 | Label Origin | Derived from filenames |
 
-### 📋 Data Integrity Check  
+###  Data Integrity Check  
 
 Total images: 1040
 Unique stems (label candidates): 1040
@@ -232,29 +232,29 @@ Same label across multiple extensions: 0
 
 
 
-## 📊 Exploratory Data Analysis  
+##  Exploratory Data Analysis  
 
-### 1️⃣ Label Length Distribution  
+###  Label Length Distribution  
 ![Label Length Distribution](imgsScs/label_length_dist.png)  
 All labels contain exactly **5 characters**, simplifying sequence modeling and padding.
 
 
-### 2️⃣ Sample CAPTCHA Grid  
+###  Sample CAPTCHA Grid  
 ![Sample Captchas](imgsScs/sample_captchas.png)  
 The dataset shows mild skew, rotation, and overlapping strokes — ideal for real-world OCR robustness.
 
-### 3️⃣ Image Dimensions Consistency  
+###  Image Dimensions Consistency  
 Every image is precisely **200×50 px**, enabling fixed input resizing and CNN efficiency.
 
-### 4️⃣ Character Frequency Distribution  
+###  Character Frequency Distribution  
 ![Character Distribution](imgsScs/top40_characters.png)  
 Top characters: `n(525)`, `4(284)`, `5(281)`, `m(275)`, `f(271)`, `g(271)`...  
 Balanced representation avoids over-training on any specific class.
 
-> ⚖️ **Balanced vocabularies** improve OCR generalization and decoding reliability.
+>  **Balanced vocabularies** improve OCR generalization and decoding reliability.
 
 
-## 🧠 Model Architecture  
+##  Model Architecture  
 
 **Architecture Summary**
 
@@ -267,15 +267,15 @@ Balanced representation avoids over-training on any specific class.
 | **Optimizer** | Adam (1e-4 lr) |
 
 
-## 🧪 Evaluation Notebook Summary  
+##  Evaluation Notebook Summary  
 
-### 🧾 Validation Data Loading  
+###  Validation Data Loading  
 
 Loads pairs from `val.csv` or auto-labels from folder structure.  
 Ensures (image_path, label) pairs are generated for validation.
 
 
-### 🔍 Model Evaluation Workflow  
+###  Model Evaluation Workflow  
 ![Evaluation Steps](imgsScs/model_eval.png)
 
 | Step | Operation | Description |
@@ -286,7 +286,7 @@ Ensures (image_path, label) pairs are generated for validation.
 | 4 | Record Results | Stores outputs in DataFrame |
 
 
-### 📈 Model Metrics  
+###  Model Metrics  
 | Metric | Result |
 |---------|--------|
 | **Exact Match Accuracy** | 0.9327 (93.2 %) |
@@ -302,7 +302,7 @@ Ensures (image_path, label) pairs are generated for validation.
 
 ---
 
-### 🧩 Character-Level Error Analysis  
+###  Character-Level Error Analysis  
 ![Error Summary](imgsScs/error_summary.png)
 
 **Aligned Character Pairs:** 519  
@@ -314,14 +314,14 @@ Ensures (image_path, label) pairs are generated for validation.
 | Deletions | `–m` |
 
 
-### 🎛 Confusion Matrix  
+###  Confusion Matrix  
 ![Confusion Matrix](imgsScs/confusion_matrix.png)  
 Diagonal (yellow) = correct predictions   
 Off-diagonal (purple) = shape confusions  
 > Sparse off-diagonals ≈ **99 % per-character accuracy**
 
 
-### 📜 Per-Character Classification Report  
+###  Per-Character Classification Report  
 ![Classification Report](imgsScs/classification_report.png)
 
 | Metric | Macro Avg | Weighted Avg |
@@ -335,13 +335,13 @@ Off-diagonal (purple) = shape confusions
 
 ---
 
-### 🧮 WER (Word Error Rate)  
+###  WER (Word Error Rate)  
 ```bash
 WER = (Substitutions + Insertions + Deletions)/(Length(GroundTruth)
 ```
 **Average WER:** 0.01538 → ~1.5 % token error.  
 
-## 🏁 Final Summary  
+##  Final Summary  
 
 | Aspect | Description | Key Takeaway |
 |---------|--------------|--------------|
@@ -359,8 +359,8 @@ WER = (Substitutions + Insertions + Deletions)/(Length(GroundTruth)
 	•	Tiyani Gurusinghe — Developer
 
 
-📘 CaptchSolver demonstrates an end-to-end OCR workflow — from CAPTCHA preprocessing and EDA to model training and Streamlit deployment — achieving human-level recognition accuracy  with interpretability metrics (CER, WER, confusion heatmaps).
+ CaptchSolver demonstrates an end-to-end OCR workflow — from CAPTCHA preprocessing and EDA to model training and Streamlit deployment — achieving human-level recognition accuracy  with interpretability metrics (CER, WER, confusion heatmaps).
 
-# 📜 License
+# License
 
 MIT License © 2025 Tiyani Gurusinghe
